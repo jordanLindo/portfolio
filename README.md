@@ -1,3 +1,4 @@
-# Modify this portfolio
+# This is A portfolio of Jordan Lindo
 
-Make it your own! 
+### Available at:
+https://portfolio-of-jordan-lindo.netlify.app/
