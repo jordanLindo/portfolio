@@ -94,7 +94,7 @@
           "images/portfolio/projects/old-books.jpg",
           "images/portfolio/projects/book-ex-library.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/jordanLindo/book-exchange",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
