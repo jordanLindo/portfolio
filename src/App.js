@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
 
+
 class App extends Component {
 
   constructor(props) {
@@ -18,35 +19,8 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
-  }
-
-  swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
-
   componentDidMount = () => {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
   }
 
   loadResumeFromPath = (path) => {
@@ -64,6 +38,7 @@ class App extends Component {
   }
 
   loadSharedData = () => {
+    this.loadResumeFromPath('res_primaryLanguage.json');
     $.ajax({
       url: `portfolio_shared_data.json`,
       dataType: "json",
@@ -98,8 +73,7 @@ class App extends Component {
           </Route>
         </Routes>
         <Footer 
-          sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
+          sharedBasicInfo={this.state.sharedData.basic_info} 
         />  
       </Router>
     );
