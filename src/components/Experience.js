@@ -23,19 +23,22 @@ class Experience extends Component {
             icon={<i className="fab fa-angular experience-icon"></i>}
             key={i}
           >
-
+            
             <h3
-              className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
-            >
-              {work.title}
-            </h3>
-            <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
               {work.company}
+            </h3>
+            <h4
+              className="vertical-timeline-element-title"
+              style={{ textAlign: "left" }}
+            >
+              {work.title}
             </h4>
+            <h5>
+              {work.description}
+            </h5>
           </VerticalTimelineElement>
         );
       });
