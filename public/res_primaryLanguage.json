@@ -15,6 +15,8 @@
         "startDate": "2019",
         "description": "A program intended to manage a combination pet store and animal shelter. This was a large group project",
         "images": [
+          "images/portfolio/projects/pets.jpg",
+          "images/portfolio/projects/calendar.jpg"
         ],
         "url": "https://github.com/jordanLindo/Capstone-2020",
         "technologies": [
@@ -27,18 +29,23 @@
             "name": "JavaScript"
           },
           {
+            "class":"devicon-microsoftsqlserver-plain",
             "name": "Microsoft Sql Server"
           },
           {
+            "class":"devicon-html5-plain",
             "name": "HTML"
           },
           {
+            "class":"devicon-css3-plain",
             "name": "CSS"
           },
           {
+            "class":"devicon-jira-plain",
             "name": "Jira"
           },
           {
+            "class":"devicon-github-original",
             "name": "GitHub"
           }
         ]
@@ -47,7 +54,10 @@
         "title": "LocalMotives",
         "startDate": "2019",
         "description": "An application for managing data for a small train company. This was a solo project for the .net course track.",
-        "images": [],
+        "images": [
+          "images/portfolio/projects/central-station.jpg",
+          "images/portfolio/projects/new-haven-line-departures.jpg"
+        ],
         "url": "https://github.com/jordanLindo/LocalMotives",
         "technologies": [
           {
@@ -59,15 +69,19 @@
             "name": "JavaScript"
           },
           {
+            "class": "devicon-microsoftsqlserver-plain",
             "name": "Microsoft Sql Server"
           },
           {
+            "class":"devicon-html5-plain",
             "name": "HTML"
           },
           {
+            "class":"devicon-css3-plain",
             "name": "CSS"
           },
           {
+            "class":"devicon-github-original",
             "name": "GitHub"
           }
         ]
@@ -77,6 +91,7 @@
         "startDate": "2022",
         "description": "A group project for DeltaV Code School. We created a site to facilitate the exchange of books.",
         "images": [
+          "images/portfolio/projects/old-books.jpg",
           "images/portfolio/projects/book-ex-library.png"
         ],
         "url": "https://github.com",
@@ -86,9 +101,11 @@
             "name": "JavaScript"
           },
           {
+            "class":"devicon-html5-plain",
             "name": "HTML"
           },
           {
+            "class":"devicon-css3-plain",
             "name": "CSS"
           }
         ]
