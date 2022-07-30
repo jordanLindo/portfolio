@@ -20,6 +20,8 @@ Andreas Lischka from https://pixabay.com//?utm_source=link-attribution&amp;utm_m
 Image by https://pixabay.com/users/huoadg5888-8934889/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3715733
 huoadg5888 from https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3715733 Pixabay
 
+https://www.vecteezy.com/free-vector/parchment-paper-background Parchment Paper Background Vectors by Vecteezy
+
 Number and name of feature: 2 About Me Page
 
 Estimate of time needed to complete: 30 min
@@ -36,15 +38,25 @@ Estimate of time needed to complete: 15 min
 
 Start time: 3:46
 
-Finish time: 
+Finish time: 7:19
 
-Actual time needed to complete: 
+Actual time needed to complete: 3 hours 44 mins
 
-Number and name of feature: 
+Number and name of feature: 4 Skills and Experience Sections
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 45 min
 
-Start time: 
+Start time: 7:24
+
+Finish time: 7:48
+
+Actual time needed to complete: 24 min
+
+Number and name of feature: 5 Personalize
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 7:50
 
 Finish time: 
 

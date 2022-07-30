@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #D7CAAA;
+$organic-arrow-color: #BFD7EA;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -14,9 +14,9 @@ $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
 $loader-bar-color:#BFAA76;
 $loader-bar-height: 6px;
-$control-bullet-color: #D7CAAA;
-$control-bullet-active-color: #D7CAAA;
-$content-background-color: #D7CAAA;
+$control-bullet-color: #BFD7EA;
+$control-bullet-active-color: #BFD7EA;
+$content-background-color: #BFD7EA;
 
 %fill-parent {
   display: block;
@@ -40,7 +40,7 @@ $content-background-color: #D7CAAA;
 
 %clear-selection {
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(11, 57, 84, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -92,7 +92,7 @@ $content-background-color: #D7CAAA;
     }
   }
   &__startUp {
-    background-color: red;
+    background-color: #C81D25;
     height: 100%;
     width: 100%;
 
@@ -137,7 +137,7 @@ $content-background-color: #D7CAAA;
       top: calc(50% - (0.5 * var(--control-button-height)));
       border: none;
       background-color: var(--control-button-background);
-      color: #fff;
+      color: #087E8B;
       cursor: pointer;
       .#{$root-element}__controls__arrow-left,
       .#{$root-element}__controls__arrow-right {

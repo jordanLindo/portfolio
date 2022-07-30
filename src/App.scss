@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #BFD7EA;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -70,14 +70,14 @@ header .nav {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid #0B3954;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
+	background-color: #087E8B;
+	color: #BFD7EA;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#BFD7EA, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -86,7 +86,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #BFD7EA;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -95,18 +95,18 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #0B3954;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #087E8B;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #087E8B;
 	height: 25px;
 }
 
@@ -120,7 +120,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #BFD7EA;
 	overflow: hidden;
 }
 
@@ -139,7 +139,7 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: #BFD7EA;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -156,7 +156,7 @@ header h1 {
 }
 
 .foto div:after {
-	color: #333;
+	color: #0B3954;
 	font-size: 25px;
 	content: attr(title);
 	position: relative;
@@ -178,7 +178,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #0B3954;
 	text-align: center;
 }
 
@@ -188,7 +188,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #BFD7EA;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -205,7 +205,7 @@ header h1 {
 }
 
 .link-href {
-	color: black;
+	color: #0B3954;
 }
 
 .wave {
@@ -218,7 +218,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #BFD7EA;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -231,7 +231,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #BFD7EA;
 }
 
 .experience-icon {
@@ -245,8 +245,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
-	color: white;
+	background-color: #FF5A5F !important;
+	color: #BFD7EA;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -256,8 +256,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: #BFD7EA !important;
+	color: #0B3954;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -276,7 +276,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: #BFD7EA;
 }
 
 .bars {
@@ -294,14 +294,14 @@ header h1 {
 .bars li {
 	position: relative;
 	margin-bottom: 60px;
-	background: #ccc;
+	background: #087E8B;
 	height: 42px;
 	border-radius: 3px;
 }
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
+	color: #0B3954;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -315,7 +315,7 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: #313131;
+	background: #0B3954;
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -329,7 +329,7 @@ header h1 {
 }
 
 .close-icon {
-	color: black;
+	color: #0B3954;
 	font-weight: lighter !important;
 }
 
@@ -349,11 +349,11 @@ header h1 {
 }
 
 .loader-bar-color {
-	color: black !important;
+	color: #0B3954 !important;
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #BFD7EA;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +389,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #0B3954;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -402,36 +402,37 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: #BFD7EA;
 	text-align: center;
 }
 
 .skill-icon {
 	font-size: 180%;
-	color: white;
+	color: #BFD7EA;
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
-	min-height: 100px;
+	background: #C81D25;
+	background-image: url("../public/images/portfolio/background-img/vecteezy_kraft-paper-white-background-with-dot-paper-texture-with_8063298.jpg");
+	min-height: 70px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: #0b3954;
 	position: relative;
 	text-align: center;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: #087E8B;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: #087E8B;
 }
 
 .social-links {
